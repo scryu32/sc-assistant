@@ -4,14 +4,14 @@ from .logger import log_decorator
 from .vectors import VectorStore
 
 class AssistantModel:
-    #user_information 데이터구조:
-    #{username:이름, user_uuid: uuid, email:email, age, ...}
+    # user_information 데이터구조:
+    # {username:이름, user_uuid: uuid, email:email, age, ...}
     def __init__(self, user_information, openai_api=os.environ.get('OPENAI_KEY'), log=False):
         self.log = log
         self.user_information= user_information
         self.client = OpenAI(api_key=openai_api)
     
-    #로깅
+    # 로깅
     def __getattribute__(self, name):
         log_enabled = object.__getattribute__(self, "log")
         attr = object.__getattribute__(self, name)
@@ -23,7 +23,7 @@ class AssistantModel:
         object.__setattr__(self, name, decorated)
         return decorated
     
-    #stream으로 텍스트 반환
+    # stream으로 텍스트 반환
     def stream_chat(self, messages: list):
         response = self.client.chat.completions.create(
             model="gpt-4o-mini",
