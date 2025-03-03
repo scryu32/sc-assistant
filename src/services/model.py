@@ -1,7 +1,6 @@
 from openai import OpenAI
 import os
 from .logger import log_decorator
-from .vectors import VectorStore
 
 class AssistantModel:
     # user_information 데이터구조:

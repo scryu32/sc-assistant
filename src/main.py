@@ -10,7 +10,7 @@ user_information = {
     "location": "suwon",
 }
 
-vector_store = services.VectorStore(user_namespace='rsc', pinecone_api=os.environ.get('PINECONE_KEY'), openai_api=os.environ.get('OPENAI_KEY'), host="https://sc-assistant-awfhoou.svc.aped-4627-b74a.pinecone.io", log=True)
+vector_store = services.VectorStore(user_namespace='rsc', pinecone_api=os.environ.get('PINECONE_KEY'), openai_api=os.environ.get('OPENAI_KEY'), host=os.environ.get("PINECONE_HOST"), log=True)
 assistant_model = services.AssistantModel(user_information, openai_api=os.environ.get('OPENAI_KEY'), log=True)
 
 messages = [{"role": "system", "content": "당신은 반말로 친근하게 대화하는 봇 호두입니다. 사용자 질문에 대한 Vector Store 상위 검색결과가 시스템 프롬프트로 전달됩니다. 대화와 관련없으면 대답에 이용하지 않는것이 좋습니다."}]
@@ -24,6 +24,7 @@ while True:
         break
     messages.append({"role": "user", "content": user_input})
     vector_store_data = vector_store.integrate_vector_read(user_input, top_k=3, read_with_id=False)
+    print(vector_store_data)
     information_list = [match["metadata"]["information"] for match in vector_store_data["matches"]]
     messages.append({"role": "system", "content": f"{information_list}"})
     assistant_response = ""
