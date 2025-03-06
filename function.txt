@@ -1,0 +1,109 @@
+Web_search_001
+Web_Search
+실시간 정보
+type
+function
+종료
+Web_search_002
+Web_Search
+실시간 검색
+type
+function
+종료
+Web_search_003
+Web_Search
+웹 서치
+type
+function
+종료
+Web_search_004
+Web_Search
+현재 주가 알려줘
+type
+function
+종료
+Web_search_005
+Web_Search
+검색 해줄수 있어?
+type
+function
+종료
+Hoshimachi_suisei_000
+Document_Search
+호시마치 스이세이
+type
+function
+종료
+Hoshimachi_suisei_001
+Document_Search
+호시마치 스이세이는 홀로라이브 JP 0기생 소속 버츄얼 유튜버이자 버츄얼 아이돌이다. \n그녀는 밝은 하늘색 머리와 옆으로 묶은 포니테일 스타일을 지니고 있으며, 체크무늬 원피스를 착용한다.
+type
+function
+종료
+Hoshimachi_suisei_002
+Document_Search
+호시마치 스이세이는 데뷔 초부터 자신을 '아이돌 Vtuber'로 소개하며, \n홀로라이브 내에서 상위권의 가창력, 뛰어난 표현력, 매력적인 음색으로 팬들의 사랑을 받아왔다. \n중저음역대와 허스키한 음색 덕분에 R&B, 팝 등 메인스트림 가요와 특히 잘 어울린다.
+type
+function
+종료
+Hoshimachi_suisei_003
+Document_Search
+호시마치 스이세이는 음악과 게임 위주의 방송을 진행하며, \n데뷔 초 목표로 삼았던 무도관 라이브를 2025년 2월 1일에 성공적으로 개최하였다. \n라이브 도중 무도관은 종착점이 아닌 통과점임을 언급하며, 다음 목표로 도쿄돔을 내세웠다.
+type
+function
+종료
+Hoshimachi_suisei_004
+Document_Search
+호시마치 스이세이는 일본 뮤지션들의 꿈인 일본 무도관 라이브를 진지하게 목표로 삼으며, \n버츄얼 유튜버가 아이돌이나 연예인으로 자연스럽게 받아들여지는 미래를 꿈꾼다. \nStellar Stellar, 비비디바 등의 곡이 대성공하며, 2024년 하반기에는 일본 유튜브 대표 아티스트 중 한 명으로 성장하였다.\nTHE FIRST TAKE 채널에 최초로 출연하는 등 활동 범위를 확대하였다.
+type
+function
+종료
+Hoshimachi_suisei_005
+Document_Search
+호시마치 스이세이가 상황극 대본에서 성우가 영어 인사를 하는 장면을 평범하게 따라하였으나, \n그 인상적인 목소리로 인해 'Hi honey'라는 밈이 형성되었다.
+type
+function
+종료
+Hoshimachi_suisei_006
+Document_Search
+호시마치 스이세이의 방송 시작 멘트에서 원래 시청자가 "오늘도 귀여워~!!"라고 응답해야 하는 부분에서, \n2021년 3월 26일 미코, 후레아와의 GTA5 콜라보 방송 중 음량 조절 문제로 "오늘도 작아~!!"라는 해프닝이 발생하였다.
+type
+function
+종료
+Hoshimachi_suisei_007
+Document_Search
+게임 진행 중 스이세이가 은근히 무자비하고 사이코 같은 행동을 보여, \n멤버와 리스너들이 붙여준 별명 '스이코패스'가 형성되었다.
+type
+function
+종료
+Hoshimachi_suisei_008
+Document_Search
+호시마치 스이세이와 사쿠라 미코는 miComet이라는 이름으로 함께 활동한다. \n2020년 7월 miComet 라이브 공연을 시작으로 관계가 본격화되었으며, \n이후 여러 행사와 스폰서 방송을 통해 '비즈니스 프렌드'라는 별명으로 불리게 되었다.
+type
+function
+종료
+Hoshimachi_suisei_009
+Document_Search
+호시마치 스이세이의 발매 앨범은 다음과 같다: 1st Album: Still Still Stellar (2021.09.29)\n2nd Album: Specter (2023.01.25)\n3rd Album: 新星目録 (2025.01.22)
+type
+function
+종료
+
+Ryu_sung_chan_000
+Document_Search
+유성찬은 대평고등학교 2학년 9반에 재학중인 고등학생으로, 장래희망은 인공지능 연구자이다. 좋아하는 과목은 수학, 과학이며 평소에 코딩을 자주한다.
+type
+function
+종료
+Ryu_sung_chan_001
+Document_Search
+유성찬은 서브컬쳐 문화를 좋아한다. 평소에 원신과 붕괴 스타레일을 즐겨하며, J-POP과 일본 애니메이션을 자주 시청한다. 가장 좋아하는 캐릭터는 '호시마치 스이세이'로, 홀로라이브 소속 버츄얼 유튜버이다.
+type
+function
+종료
+Ryu_sung_chan_002
+Document_Search
+유성찬은 대평고등학교 프로그래밍 동아리인 'Ctrl+V'의 기장이며 프로그래밍 기획단 등 학교의 다양한 활동에 활발하게 참여한다.
+type
+function
+종료

@@ -28,7 +28,7 @@ class AssistantModel:
             model="gpt-4o-mini",
             messages=messages,
             temperature=0.7,
-            max_tokens=1600,
+            max_tokens=3200,
             top_p=1,
             frequency_penalty=0,
             presence_penalty=0,

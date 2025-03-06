@@ -16,18 +16,21 @@ from .logger import log_decorator
 # 아이디로 검색해서 지우는거
 class VectorStore:
     # user_namespace는 유저이름임. 데이터베이스에서 어떤 유저가 올린 벡터인지 구분하기위한 내용
-    # user_namespace를 유저이름말고 유저의 UUID로 하는게 가장 안전할듯
-    def __init__(self, user_namespace, pinecone_api, openai_api, host, log=False):
+    # user_namespace를 유저이름말고 유저의 UUID로 하는게 가장 안전할듯 
+    # 나중에 Function calling 추가하면 host는 인자로 안받고 index 두개만들어줘야함
+    def __init__(self, user_namespace, pinecone_api, openai_api, function = False, log=False):
         self.log = log
         self.client = OpenAI(api_key=openai_api)
         self.pc = Pinecone(api_key=pinecone_api)
-        self.index = self.pc.Index(host=host)
+        if function:
+            self.index = self.pc.Index(host="https://function-awfhoou.svc.aped-4627-b74a.pinecone.io")
+        else:
+            self.index = self.pc.Index(host="https://document-awfhoou.svc.aped-4627-b74a.pinecone.io")
         self.namespace = user_namespace
 
     # 로깅
     # 객체에 접근하면 언제든 실행되는 함수임
     def __getattribute__(self, name):
-
         if name == "read_vector":
             return object.__getattribute__(self, name)
         if name == "integrate_vector_read":
